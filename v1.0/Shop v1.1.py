@@ -17,10 +17,12 @@ totalPrice = 0
 
 shopCart = []
 while len(itemsAvail) > 0:
+    
     shop = input('What would you like to buy?: ').lower()
     if shop in itemsAvail:
         shopCart.append(shop)
         totalPrice += itemsAvailList[shop]
+    
     else:
         print('Item not available')
         continue
@@ -29,8 +31,10 @@ while len(itemsAvail) > 0:
     if ask == 'n':
         price = totalPrice
         break
+    
     elif ask == 'y':
         continue
+    
     else:
         print('Invalid Input.....')
         break
@@ -42,8 +46,10 @@ totalPay = totalPrice - disVal
 print('Total Price: Rs.'+str(totalPrice))
 print('Discount:', str(applyDiscount) + '%')
 print('Total Price after Discount: Rs.'+str(totalPay))
+
 if cashInHand <= totalPay:
     print("sorry you don't have enough money to purchase these items")
     exit  
+
 else:
     print('Thank you for shopping!')
