@@ -5,7 +5,7 @@ Algorithm for terminal based shop.
 Second Version. Re-coded and new feature (remove items from cart)
 
 # v1.1:
-First patch. New features.
+First patch. Bug Fixes
 
 # v1.0: 
 First release. Algorithm shop
