@@ -1,7 +1,7 @@
 # Shop
 Algorithm for terminal based shop.
 
-v2.0:
+<ins>v2.0:</ins>
 - Second Version. 
 - Re-structured code.
 - New feature (remove items from cart).
