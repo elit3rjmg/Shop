@@ -6,9 +6,9 @@ Algorithm for terminal based shop.
 - Re-structured code.
 - New feature (remove items from cart).
 
-v1.1:
+<ins>v1.1:</ins>
 - First patch. 
 - Bug Fixes.
 
-v1.0: 
+<ins>v1.0:</ins>
 - First release.
